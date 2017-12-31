@@ -1,0 +1,11 @@
+{
+  "name": "node-beginner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+      "start": "node index.js"
+  }
+}
