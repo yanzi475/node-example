@@ -2,6 +2,19 @@
  * Created by haiyan.
  */
 var Webpack = require("webpack");
+
+// 方便切换不同的 devtool
+var devtools = [
+    'source-map',
+    // 映射 ES6 代码对应行
+    'cheap-module-eval-source-map',
+    // 映射 ES5 代码对应行
+    'cheap-eval-source-map',
+    // 映射 ES5 代码
+    'eval'
+];
+
+
 module.exports = {
   entry: ["./js/router.js"],
   output: {
